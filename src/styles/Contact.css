@@ -21,9 +21,7 @@
 }
 
 .contact .rightSide h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: 10;
+  font-weight: bold;
   font-size: 50px;
   margin-left: 30px;
 }
@@ -54,8 +52,7 @@ form textarea {
 }
 input::placeholder,
 textarea::placeholder {
-  font-weight: bold;
-  color: black;
+  color: gray;
   font-family: Arial, Helvetica, sans-serif;
 }
 form input:focus,
@@ -64,8 +61,9 @@ textarea:focus {
 }
 
 form label {
+  font-weight: bold;
   margin-top: 15px;
-  color: grey;
+  color: black;
 }
 
 form button {
